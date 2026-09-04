@@ -59,6 +59,10 @@ Invalid optional values are dropped with a console warning; a missing or malform
 
 The only thing this package adds to your site is one `<script>` tag that loads `https://deskcrew.io/desk.js` with your public key. The widget runs inside a Shadow DOM and does not touch your styles. Terms: https://deskcrew.io/terms. Privacy: https://deskcrew.io/privacy.
 
+## Contributing
+
+Issues and pull requests are welcome at https://github.com/webmilmind1/vue-deskcrew. Run `npm test` before opening a PR; the suite covers the tag builder, the plugin and the component. Keep the package dependency-free (it emits one script tag) and note any option change in the Options table above.
+
 ## License
 
 MIT
