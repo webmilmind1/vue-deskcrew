@@ -1,0 +1,68 @@
+{
+  "name": "@deskcrew/vue",
+  "version": "1.0.1",
+  "description": "Vue 3 plugin and component that add the DeskCrew support widget (live chat, AI answers from your knowledge base, a help center) to your app.",
+  "keywords": [
+    "vue",
+    "vue3",
+    "vue-plugin",
+    "vue-component",
+    "vite",
+    "support",
+    "helpdesk",
+    "help desk",
+    "customer support",
+    "live chat",
+    "chat widget",
+    "support widget",
+    "ai chat",
+    "ai support",
+    "ticketing",
+    "support tickets",
+    "knowledge base",
+    "deskcrew"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webmilmind1/vue-deskcrew.git"
+  },
+  "homepage": "https://deskcrew.io/integrations/vue",
+  "bugs": {
+    "url": "https://github.com/webmilmind1/vue-deskcrew/issues",
+    "email": "hello@deskcrew.io"
+  },
+  "author": "DeskCrew <hello@deskcrew.io> (https://deskcrew.io)",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js",
+      "default": "./index.js"
+    }
+  },
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "build-tag.js",
+    "index.d.ts",
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "peerDependencies": {
+    "vue": ">=3"
+  },
+  "devDependencies": {
+    "vue": ">=3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
